@@ -80,7 +80,7 @@ The simulation generates its own data. The two public datasets are not included 
 
 ## Disclosure
 
-Generative AI was used to help write and run parts of this code and to draft and edit the article. The author checked the code, results and claims.
+Generative AI was used to help write and run parts of this code and to and edit the article. The author checked the code, results and claims.
 
 ## License
 
