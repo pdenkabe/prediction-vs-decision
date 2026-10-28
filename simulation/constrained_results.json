@@ -1,0 +1,254 @@
+[
+ {
+  "policy": "Lowest predicted risk",
+  "treated": 200000,
+  "value_m": 0.8242074518266751,
+  "extra_defaults": 540.0777442047641,
+  "seed": 7
+ },
+ {
+  "policy": "Expected-profit rule",
+  "treated": 200000,
+  "value_m": 2.8688808963036054,
+  "extra_defaults": 3865.153479049144,
+  "seed": 7
+ },
+ {
+  "policy": "Perfect hindsight",
+  "treated": 200000,
+  "value_m": 8.01987554598849,
+  "extra_defaults": 608.2958186433822,
+  "seed": 7
+ },
+ {
+  "policy": "Incremental value, no cap (positive predicted value only)",
+  "treated": 200000,
+  "value_m": 3.610030429407932,
+  "extra_defaults": 2131.7758344352287,
+  "seed": 7
+ },
+ {
+  "policy": "Incremental value, predicted default increase <= 3.0 pts",
+  "treated": 200000,
+  "value_m": 2.708052988243992,
+  "extra_defaults": 1713.8061614797066,
+  "seed": 7
+ },
+ {
+  "policy": "Incremental value, predicted default increase <= 2.0 pts",
+  "treated": 168807,
+  "value_m": 2.0527234802866063,
+  "extra_defaults": 1351.3515141355506,
+  "seed": 7
+ },
+ {
+  "policy": "Incremental value, predicted default increase <= 1.0 pts",
+  "treated": 118177,
+  "value_m": 1.2157914733513477,
+  "extra_defaults": 933.142675886922,
+  "seed": 7
+ },
+ {
+  "policy": "Incremental value, predicted default increase <= 0.5 pts",
+  "treated": 90906,
+  "value_m": 0.8544646747209492,
+  "extra_defaults": 741.5592976744573,
+  "seed": 7
+ },
+ {
+  "policy": "Incremental value, top 200,000 (article)",
+  "treated": 200000,
+  "value_m": 3.610030429407932,
+  "extra_defaults": 2131.7758344352287,
+  "seed": 7
+ },
+ {
+  "policy": "Lowest predicted risk",
+  "treated": 200000,
+  "value_m": 0.6383360185412584,
+  "extra_defaults": 503.3352392258055,
+  "seed": 11
+ },
+ {
+  "policy": "Expected-profit rule",
+  "treated": 200000,
+  "value_m": 2.4468988008465793,
+  "extra_defaults": 4099.501951234632,
+  "seed": 11
+ },
+ {
+  "policy": "Perfect hindsight",
+  "treated": 200000,
+  "value_m": 8.017697318160423,
+  "extra_defaults": 608.0418128255197,
+  "seed": 11
+ },
+ {
+  "policy": "Incremental value, no cap (positive predicted value only)",
+  "treated": 200000,
+  "value_m": 3.5392611170307764,
+  "extra_defaults": 2405.2467701482055,
+  "seed": 11
+ },
+ {
+  "policy": "Incremental value, predicted default increase <= 3.0 pts",
+  "treated": 191712,
+  "value_m": 3.1872892247344984,
+  "extra_defaults": 1862.419024420414,
+  "seed": 11
+ },
+ {
+  "policy": "Incremental value, predicted default increase <= 2.0 pts",
+  "treated": 163403,
+  "value_m": 2.7238818441955206,
+  "extra_defaults": 1497.59553717693,
+  "seed": 11
+ },
+ {
+  "policy": "Incremental value, predicted default increase <= 1.0 pts",
+  "treated": 124956,
+  "value_m": 2.038060634856043,
+  "extra_defaults": 1091.6771108215723,
+  "seed": 11
+ },
+ {
+  "policy": "Incremental value, predicted default increase <= 0.5 pts",
+  "treated": 99461,
+  "value_m": 1.6130399285236496,
+  "extra_defaults": 893.7387515120383,
+  "seed": 11
+ },
+ {
+  "policy": "Incremental value, top 200,000 (article)",
+  "treated": 200000,
+  "value_m": 3.5392526920785956,
+  "extra_defaults": 2405.2479090892466,
+  "seed": 11
+ },
+ {
+  "policy": "Lowest predicted risk",
+  "treated": 200000,
+  "value_m": 0.8320818791221332,
+  "extra_defaults": 540.9184514415037,
+  "seed": 23
+ },
+ {
+  "policy": "Expected-profit rule",
+  "treated": 200000,
+  "value_m": 2.8344396830157166,
+  "extra_defaults": 3877.4023938857104,
+  "seed": 23
+ },
+ {
+  "policy": "Perfect hindsight",
+  "treated": 200000,
+  "value_m": 8.00419926577903,
+  "extra_defaults": 610.2451935326878,
+  "seed": 23
+ },
+ {
+  "policy": "Incremental value, no cap (positive predicted value only)",
+  "treated": 200000,
+  "value_m": 3.691177324274863,
+  "extra_defaults": 2336.479436987897,
+  "seed": 23
+ },
+ {
+  "policy": "Incremental value, predicted default increase <= 3.0 pts",
+  "treated": 200000,
+  "value_m": 3.024951482978157,
+  "extra_defaults": 1851.7565658926883,
+  "seed": 23
+ },
+ {
+  "policy": "Incremental value, predicted default increase <= 2.0 pts",
+  "treated": 197935,
+  "value_m": 2.5461173231777665,
+  "extra_defaults": 1646.9455525923813,
+  "seed": 23
+ },
+ {
+  "policy": "Incremental value, predicted default increase <= 1.0 pts",
+  "treated": 165417,
+  "value_m": 1.8913617634553899,
+  "extra_defaults": 1284.7577844891143,
+  "seed": 23
+ },
+ {
+  "policy": "Incremental value, predicted default increase <= 0.5 pts",
+  "treated": 139264,
+  "value_m": 1.4813053002606824,
+  "extra_defaults": 1076.533348719487,
+  "seed": 23
+ },
+ {
+  "policy": "Incremental value, top 200,000 (article)",
+  "treated": 200000,
+  "value_m": 3.691177324274863,
+  "extra_defaults": 2336.4794369878964,
+  "seed": 23
+ },
+ {
+  "policy": "Lowest predicted risk",
+  "treated": 200000,
+  "value_m": 0.6356736782410674,
+  "extra_defaults": 526.9977678539615,
+  "seed": 42
+ },
+ {
+  "policy": "Expected-profit rule",
+  "treated": 200000,
+  "value_m": 2.892657208812565,
+  "extra_defaults": 3831.676025937136,
+  "seed": 42
+ },
+ {
+  "policy": "Perfect hindsight",
+  "treated": 200000,
+  "value_m": 8.001766127874614,
+  "extra_defaults": 609.3834289645848,
+  "seed": 42
+ },
+ {
+  "policy": "Incremental value, no cap (positive predicted value only)",
+  "treated": 200000,
+  "value_m": 3.7500016136363694,
+  "extra_defaults": 2416.57613371772,
+  "seed": 42
+ },
+ {
+  "policy": "Incremental value, predicted default increase <= 3.0 pts",
+  "treated": 199295,
+  "value_m": 2.96312254052086,
+  "extra_defaults": 1786.2340599140884,
+  "seed": 42
+ },
+ {
+  "policy": "Incremental value, predicted default increase <= 2.0 pts",
+  "treated": 170368,
+  "value_m": 2.4767626381611993,
+  "extra_defaults": 1421.4803834125496,
+  "seed": 42
+ },
+ {
+  "policy": "Incremental value, predicted default increase <= 1.0 pts",
+  "treated": 125083,
+  "value_m": 1.8033012250075326,
+  "extra_defaults": 989.8911138712326,
+  "seed": 42
+ },
+ {
+  "policy": "Incremental value, predicted default increase <= 0.5 pts",
+  "treated": 93726,
+  "value_m": 1.3836271583967217,
+  "extra_defaults": 770.4211835203378,
+  "seed": 42
+ },
+ {
+  "policy": "Incremental value, top 200,000 (article)",
+  "treated": 200000,
+  "value_m": 3.7499993975712305,
+  "extra_defaults": 2416.5927737394886,
+  "seed": 42
+ }
+]

@@ -16,8 +16,10 @@ Published sources cited in "Your AI May Be Accurate—and Still Make Bad Decisio
 
 ## Regulation
 
-10. Consumer Financial Protection Bureau. Circular 2022-03, "Adverse action notification requirements in connection with credit decisions based on complex algorithms," May 2022. [CFPB](https://www.consumerfinance.gov/compliance/circulars/circular-2022-03-adverse-action-notification-requirements-in-connection-with-credit-decisions-based-on-complex-algorithms/)
-11. Consumer Financial Protection Bureau. Circular 2023-03, "Adverse action notification requirements and the proper use of the CFPB's sample forms provided in Regulation B," September 2023. [CFPB (PDF)](https://files.consumerfinance.gov/f/documents/cfpb_adverse_action_notice_circular_2023-09.pdf)
+10. Consumer Financial Protection Bureau. Regulation B (Equal Credit Opportunity Act), 12 CFR 1002.9(b)(2), and official interpretation, comment 9(b)(2)-2 (adverse-action reasons must relate to and accurately describe the factors actually considered or scored). [CFPB](https://www.consumerfinance.gov/rules-policy/regulations/1002/interp-9/)
+11. Consumer Financial Protection Bureau. Final rule amending Regulation B (removing disparate-impact liability under ECOA, narrowing discouragement, revising special purpose credit programs), Federal Register, April 22, 2026; effective July 21, 2026. [Summary (Venable)](https://www.venable.com/insights/publications/2026/05/cfpb-makes-significant-changes-to-regulation-b)
+
+Note: CFPB Circulars 2022-03 and 2023-03 on adverse-action notices, cited in an earlier draft, were withdrawn on May 12, 2025, and are no longer cited.
 
 ## Data
 
