@@ -1,0 +1,842 @@
+[
+ {
+  "seed": 7,
+  "scenario": {},
+  "random": -7887094.597154469,
+  "lowest_risk": 824207.4518266751,
+  "highest_usage": -16350048.549931735,
+  "expected_profit_observational": 2868880.8963036053,
+  "expected_profit_generous": 2518511.785146834,
+  "incremental_value": 3610030.429407932,
+  "incremental_value_cycle1_capacity": 3540269.3852334376,
+  "ceiling": 8019875.545988491,
+  "pilot_cost": -1203029.9370337855,
+  "pilot_treated": 29991,
+  "mean_pd": 0.11343437248702669,
+  "mean_ite": -39.46273809697437,
+  "name": "Base case"
+ },
+ {
+  "seed": 11,
+  "scenario": {},
+  "random": -7844761.528180288,
+  "lowest_risk": 638336.0185412584,
+  "highest_usage": -16333375.518742193,
+  "expected_profit_observational": 2446898.8008465795,
+  "expected_profit_generous": 2065066.4722783,
+  "incremental_value": 3539252.6920785955,
+  "incremental_value_cycle1_capacity": 3501205.6121081295,
+  "ceiling": 8017697.318160422,
+  "pilot_cost": -1170477.1701879892,
+  "pilot_treated": 29872,
+  "mean_pd": 0.11333789300081204,
+  "mean_ite": -39.533925149309326,
+  "name": "Base case"
+ },
+ {
+  "seed": 23,
+  "scenario": {},
+  "random": -7931815.992694636,
+  "lowest_risk": 832081.8791221331,
+  "highest_usage": -16332246.377034355,
+  "expected_profit_observational": 2834439.6830157167,
+  "expected_profit_generous": 2600196.511212811,
+  "incremental_value": 3691177.324274863,
+  "incremental_value_cycle1_capacity": 3623190.4431269593,
+  "ceiling": 8004199.265779031,
+  "pilot_cost": -1163879.9244046852,
+  "pilot_treated": 30150,
+  "mean_pd": 0.11356079204301164,
+  "mean_ite": -39.55866411033355,
+  "name": "Base case"
+ },
+ {
+  "seed": 42,
+  "scenario": {},
+  "random": -7922300.29130544,
+  "lowest_risk": 635673.6782410673,
+  "highest_usage": -16339679.831143172,
+  "expected_profit_observational": 2892657.2088125646,
+  "expected_profit_generous": 2614221.5498973746,
+  "incremental_value": 3749999.3975712303,
+  "incremental_value_cycle1_capacity": 3720651.637015241,
+  "ceiling": 8001766.127874615,
+  "pilot_cost": -1190531.879505996,
+  "pilot_treated": 30020,
+  "mean_pd": 0.11352015940111919,
+  "mean_ite": -39.64355378035718,
+  "name": "Base case"
+ },
+ {
+  "seed": 7,
+  "scenario": {
+   "NET_YIELD": 0.15
+  },
+  "random": -9280526.598109245,
+  "lowest_risk": 56117.92296500859,
+  "highest_usage": -19804562.309456896,
+  "expected_profit_observational": 417065.6905802272,
+  "expected_profit_generous": 51970.46266538859,
+  "incremental_value": 1305920.9422951972,
+  "incremental_value_cycle1_capacity": 1421463.7358494,
+  "ceiling": 4660105.655698609,
+  "pilot_cost": -1411489.451617565,
+  "pilot_treated": 29991,
+  "mean_pd": 0.11343437248702669,
+  "mean_ite": -46.44660538185081,
+  "name": "Lower margin (net yield 15%, higher funding cost)"
+ },
+ {
+  "seed": 11,
+  "scenario": {
+   "NET_YIELD": 0.15
+  },
+  "random": -9238837.18596194,
+  "lowest_risk": -76086.9194618134,
+  "highest_usage": -19788335.977870174,
+  "expected_profit_observational": 209902.6866627346,
+  "expected_profit_generous": 43877.00438535598,
+  "incremental_value": 1315501.5342050695,
+  "incremental_value_cycle1_capacity": 1422933.4370018402,
+  "ceiling": 4655877.576230992,
+  "pilot_cost": -1378841.7603281687,
+  "pilot_treated": 29872,
+  "mean_pd": 0.11333789300081204,
+  "mean_ite": -46.50843598474467,
+  "name": "Lower margin (net yield 15%, higher funding cost)"
+ },
+ {
+  "seed": 23,
+  "scenario": {
+   "NET_YIELD": 0.15
+  },
+  "random": -9325861.916570334,
+  "lowest_risk": 59223.76810382715,
+  "highest_usage": -19792020.469299443,
+  "expected_profit_observational": 473048.569807973,
+  "expected_profit_generous": 295318.5426709361,
+  "incremental_value": 1342327.077360772,
+  "incremental_value_cycle1_capacity": 1440103.7627500186,
+  "ceiling": 4648953.506881844,
+  "pilot_cost": -1374771.100188319,
+  "pilot_treated": 30150,
+  "mean_pd": 0.11356079204301164,
+  "mean_ite": -46.533450675105435,
+  "name": "Lower margin (net yield 15%, higher funding cost)"
+ },
+ {
+  "seed": 42,
+  "scenario": {
+   "NET_YIELD": 0.15
+  },
+  "random": -9313614.45883953,
+  "lowest_risk": -85067.21138929657,
+  "highest_usage": -19792539.30977904,
+  "expected_profit_observational": 477573.27182054304,
+  "expected_profit_generous": 219790.51957374217,
+  "incremental_value": 1284470.1274722116,
+  "incremental_value_cycle1_capacity": 1354750.5394972244,
+  "ceiling": 4647165.593191726,
+  "pilot_cost": -1399052.3755178156,
+  "pilot_treated": 30020,
+  "mean_pd": 0.11352015940111919,
+  "mean_ite": -46.60300936665887,
+  "name": "Lower margin (net yield 15%, higher funding cost)"
+ },
+ {
+  "seed": 7,
+  "scenario": {
+   "NET_YIELD": 0.25
+  },
+  "random": -6493662.596199695,
+  "lowest_risk": 1592296.9806883412,
+  "highest_usage": -12895534.790406574,
+  "expected_profit_observational": 5643464.80409165,
+  "expected_profit_generous": 5145549.739251253,
+  "incremental_value": 6436898.543626085,
+  "incremental_value_cycle1_capacity": 6067971.746041153,
+  "ceiling": 11565341.554008126,
+  "pilot_cost": -994570.4224500062,
+  "pilot_treated": 29991,
+  "mean_pd": 0.11343437248702669,
+  "mean_ite": -32.478870812097924,
+  "name": "Higher margin (net yield 25%)"
+ },
+ {
+  "seed": 11,
+  "scenario": {
+   "NET_YIELD": 0.25
+  },
+  "random": -6450685.870398637,
+  "lowest_risk": 1352758.9565443299,
+  "highest_usage": -12878415.059614211,
+  "expected_profit_observational": 5016225.630383742,
+  "expected_profit_generous": 4592145.41924155,
+  "incremental_value": 6182131.109456312,
+  "incremental_value_cycle1_capacity": 5882345.208858449,
+  "ceiling": 11566078.261861425,
+  "pilot_cost": -962112.5800478099,
+  "pilot_treated": 29872,
+  "mean_pd": 0.11333789300081204,
+  "mean_ite": -32.55941431387397,
+  "name": "Higher margin (net yield 25%)"
+ },
+ {
+  "seed": 23,
+  "scenario": {
+   "NET_YIELD": 0.25
+  },
+  "random": -6537770.068818939,
+  "lowest_risk": 1604939.9901404385,
+  "highest_usage": -12872472.284769267,
+  "expected_profit_observational": 5513450.138391197,
+  "expected_profit_generous": 5189755.453964614,
+  "incremental_value": 6357375.676413566,
+  "incremental_value_cycle1_capacity": 6003662.416358426,
+  "ceiling": 11548450.625891533,
+  "pilot_cost": -952988.7486210515,
+  "pilot_treated": 30150,
+  "mean_pd": 0.11356079204301164,
+  "mean_ite": -32.583877545561684,
+  "name": "Higher margin (net yield 25%)"
+ },
+ {
+  "seed": 42,
+  "scenario": {
+   "NET_YIELD": 0.25
+  },
+  "random": -6530986.123771351,
+  "lowest_risk": 1356414.5678714304,
+  "highest_usage": -12886820.352507308,
+  "expected_profit_observational": 5612592.706076758,
+  "expected_profit_generous": 5253732.454879567,
+  "incremental_value": 6466597.888595578,
+  "incremental_value_cycle1_capacity": 6106069.19816479,
+  "ceiling": 11541983.856399935,
+  "pilot_cost": -982011.3834941764,
+  "pilot_treated": 30020,
+  "mean_pd": 0.11352015940111919,
+  "mean_ite": -32.6840981940555,
+  "name": "Higher margin (net yield 25%)"
+ },
+ {
+  "seed": 7,
+  "scenario": {
+   "LGD": 0.75
+  },
+  "random": -5776957.496992207,
+  "lowest_risk": 1065565.8957633404,
+  "highest_usage": -11455364.618593005,
+  "expected_profit_observational": 4092037.0907960166,
+  "expected_profit_generous": 3701744.808647332,
+  "incremental_value": 4741289.933699856,
+  "incremental_value_cycle1_capacity": 4523240.705660772,
+  "ceiling": 8904196.945928443,
+  "pilot_cost": -883545.9378056352,
+  "pilot_treated": 29991,
+  "mean_pd": 0.11343437248702669,
+  "mean_ite": -28.896370224227674,
+  "name": "Lower loss severity (LGD 75%)"
+ },
+ {
+  "seed": 11,
+  "scenario": {
+   "LGD": 0.75
+  },
+  "random": -5741250.834962472,
+  "lowest_risk": 874895.3074530965,
+  "highest_usage": -11441172.626199838,
+  "expected_profit_observational": 3603853.8360154405,
+  "expected_profit_generous": 3247743.582899368,
+  "incremental_value": 4511190.947746916,
+  "incremental_value_cycle1_capacity": 4363898.74151152,
+  "ceiling": 8904274.117117692,
+  "pilot_cost": -856402.5817298713,
+  "pilot_treated": 29872,
+  "mean_pd": 0.11333789300081204,
+  "mean_ite": -28.96193040080086,
+  "name": "Lower loss severity (LGD 75%)"
+ },
+ {
+  "seed": 23,
+  "scenario": {
+   "LGD": 0.75
+  },
+  "random": -5813816.044661731,
+  "lowest_risk": 1075306.973280648,
+  "highest_usage": -11437022.58601857,
+  "expected_profit_observational": 4006548.889181044,
+  "expected_profit_generous": 3752490.463722067,
+  "incremental_value": 4658326.690954232,
+  "incremental_value_cycle1_capacity": 4445195.336238351,
+  "ceiling": 8890038.08731111,
+  "pilot_cost": -849405.8198148152,
+  "pilot_treated": 30150,
+  "mean_pd": 0.11356079204301164,
+  "mean_ite": -28.982362382096714,
+  "name": "Lower loss severity (LGD 75%)"
+ },
+ {
+  "seed": 42,
+  "scenario": {
+   "LGD": 0.75
+  },
+  "random": -5807707.4643984735,
+  "lowest_risk": 876888.6582877985,
+  "highest_usage": -11447826.873528732,
+  "expected_profit_observational": 4074970.9037639173,
+  "expected_profit_generous": 3804326.9054328636,
+  "incremental_value": 4821891.375013796,
+  "incremental_value_cycle1_capacity": 4585596.6075799875,
+  "ceiling": 8885555.830942275,
+  "pilot_cost": -873109.5689137835,
+  "pilot_treated": 30020,
+  "mean_pd": 0.11352015940111919,
+  "mean_ite": -29.063324426096525,
+  "name": "Lower loss severity (LGD 75%)"
+ },
+ {
+  "seed": 7,
+  "scenario": {
+   "LGD": 1.0
+  },
+  "random": -9293852.66392931,
+  "lowest_risk": 663301.8225355652,
+  "highest_usage": -19613171.170824222,
+  "expected_profit_observational": 2124522.3742593434,
+  "expected_profit_generous": 1772878.3565693162,
+  "incremental_value": 3091807.5779119697,
+  "incremental_value_cycle1_capacity": 3096111.2258026893,
+  "ceiling": 7476157.118079545,
+  "pilot_cost": -1416019.2698525526,
+  "pilot_treated": 29991,
+  "mean_pd": 0.11343437248702669,
+  "mean_ite": -46.50698334547216,
+  "name": "Higher loss severity (LGD 100%)"
+ },
+ {
+  "seed": 11,
+  "scenario": {
+   "LGD": 1.0
+  },
+  "random": -9247101.990325497,
+  "lowest_risk": 480629.82593336643,
+  "highest_usage": -19594844.113770425,
+  "expected_profit_observational": 1757684.6010753,
+  "expected_profit_generous": 1376478.9981331695,
+  "incremental_value": 2971665.9083472695,
+  "incremental_value_cycle1_capacity": 2981113.2903809594,
+  "ceiling": 7472673.3188559525,
+  "pilot_cost": -1379860.2291600676,
+  "pilot_treated": 29872,
+  "mean_pd": 0.11333789300081204,
+  "mean_ite": -46.58192164831495,
+  "name": "Higher loss severity (LGD 100%)"
+ },
+ {
+  "seed": 23,
+  "scenario": {
+   "LGD": 1.0
+  },
+  "random": -9343815.958049905,
+  "lowest_risk": 669931.8163497897,
+  "highest_usage": -19595728.90437821,
+  "expected_profit_observational": 2117368.3524511294,
+  "expected_profit_generous": 1879363.4908600673,
+  "incremental_value": 3015883.237344566,
+  "incremental_value_cycle1_capacity": 3021170.1077984045,
+  "ceiling": 7460344.422287704,
+  "pilot_cost": -1373529.3274645987,
+  "pilot_treated": 30150,
+  "mean_pd": 0.11356079204301164,
+  "mean_ite": -46.609531929158116,
+  "name": "Higher loss severity (LGD 100%)"
+ },
+ {
+  "seed": 42,
+  "scenario": {
+   "LGD": 1.0
+  },
+  "random": -9332028.84257675,
+  "lowest_risk": 474863.6915432465,
+  "highest_usage": -19600915.136219464,
+  "expected_profit_observational": 2176155.0479557947,
+  "expected_profit_generous": 1905203.0501124284,
+  "incremental_value": 3073213.3283866523,
+  "incremental_value_cycle1_capacity": 3071698.490288279,
+  "ceiling": 7457881.61041311,
+  "pilot_cost": -1402146.7532341375,
+  "pilot_treated": 30020,
+  "mean_pd": 0.11352015940111919,
+  "mean_ite": -46.697040016530956,
+  "name": "Higher loss severity (LGD 100%)"
+ },
+ {
+  "seed": 7,
+  "scenario": {
+   "util_shift": -0.1
+  },
+  "random": -7184006.535513995,
+  "lowest_risk": 249670.7796213622,
+  "highest_usage": -13394061.047643846,
+  "expected_profit_observational": 1856200.8142475653,
+  "expected_profit_generous": 1501972.349364164,
+  "incremental_value": 2274634.242890802,
+  "incremental_value_cycle1_capacity": 2351086.000703452,
+  "ceiling": 5579158.507378906,
+  "pilot_cost": -1097145.6514868485,
+  "pilot_treated": 29991,
+  "mean_pd": 0.10478332718318537,
+  "mean_ite": -35.94900138927324,
+  "name": "Less credit-hungry customers (util -0.10)"
+ },
+ {
+  "seed": 11,
+  "scenario": {
+   "util_shift": -0.1
+  },
+  "random": -7148614.350832458,
+  "lowest_risk": 263109.2149074441,
+  "highest_usage": -13359557.102553431,
+  "expected_profit_observational": 1623119.8925637798,
+  "expected_profit_generous": 1064927.5338893922,
+  "incremental_value": 2216252.2837953744,
+  "incremental_value_cycle1_capacity": 2271366.478979743,
+  "ceiling": 5575738.2721400205,
+  "pilot_cost": -1066316.0910010126,
+  "pilot_treated": 29872,
+  "mean_pd": 0.10468901516419338,
+  "mean_ite": -35.99763398281358,
+  "name": "Less credit-hungry customers (util -0.10)"
+ },
+ {
+  "seed": 23,
+  "scenario": {
+   "util_shift": -0.1
+  },
+  "random": -7219784.851376542,
+  "lowest_risk": 286820.0922978576,
+  "highest_usage": -13358965.274694586,
+  "expected_profit_observational": 1950384.4905225127,
+  "expected_profit_generous": 1489397.3985389234,
+  "incremental_value": 2208608.7015148583,
+  "incremental_value_cycle1_capacity": 2293572.334185074,
+  "ceiling": 5563974.852043094,
+  "pilot_cost": -1060532.7697655787,
+  "pilot_treated": 30150,
+  "mean_pd": 0.10490876901111301,
+  "mean_ite": -36.03402756866202,
+  "name": "Less credit-hungry customers (util -0.10)"
+ },
+ {
+  "seed": 42,
+  "scenario": {
+   "util_shift": -0.1
+  },
+  "random": -7217543.351688413,
+  "lowest_risk": 68366.14024114222,
+  "highest_usage": -13362510.31369464,
+  "expected_profit_observational": 1885416.9051179434,
+  "expected_profit_generous": 1541261.7009843998,
+  "incremental_value": 2323111.1425176337,
+  "incremental_value_cycle1_capacity": 2385882.7028418714,
+  "ceiling": 5562177.774471889,
+  "pilot_cost": -1082959.877462018,
+  "pilot_treated": 30020,
+  "mean_pd": 0.10486578066956218,
+  "mean_ite": -36.100905001232874,
+  "name": "Less credit-hungry customers (util -0.10)"
+ },
+ {
+  "seed": 7,
+  "scenario": {
+   "util_shift": 0.1
+  },
+  "random": -8624600.776785124,
+  "lowest_risk": 1634100.4492400181,
+  "highest_usage": -19341918.30741682,
+  "expected_profit_observational": 3748414.9758649105,
+  "expected_profit_generous": 3412749.7384700496,
+  "incremental_value": 5018588.2507526195,
+  "incremental_value_cycle1_capacity": 4785369.122858248,
+  "ceiling": 10547252.036141276,
+  "pilot_cost": -1311472.443248496,
+  "pilot_treated": 29991,
+  "mean_pd": 0.12227631646888214,
+  "mean_ite": -43.163139065285264,
+  "name": "More credit-hungry customers (util +0.10)"
+ },
+ {
+  "seed": 11,
+  "scenario": {
+   "util_shift": 0.1
+  },
+  "random": -8570003.189237207,
+  "lowest_risk": 1529553.9944762895,
+  "highest_usage": -19368676.76332494,
+  "expected_profit_observational": 3450931.625657814,
+  "expected_profit_generous": 3187034.5391122755,
+  "incremental_value": 5080829.373345202,
+  "incremental_value_cycle1_capacity": 4810088.673645706,
+  "ceiling": 10544765.925372126,
+  "pilot_cost": -1282058.5717753815,
+  "pilot_treated": 29872,
+  "mean_pd": 0.12217740879315754,
+  "mean_ite": -43.2272433140349,
+  "name": "More credit-hungry customers (util +0.10)"
+ },
+ {
+  "seed": 23,
+  "scenario": {
+   "util_shift": 0.1
+  },
+  "random": -8679027.633968748,
+  "lowest_risk": 1601958.895741534,
+  "highest_usage": -19372687.681129396,
+  "expected_profit_observational": 3767835.1562964567,
+  "expected_profit_generous": 3532835.2665300407,
+  "incremental_value": 4956105.566990735,
+  "incremental_value_cycle1_capacity": 4709865.625007639,
+  "ceiling": 10534058.028059117,
+  "pilot_cost": -1268297.611052434,
+  "pilot_treated": 30150,
+  "mean_pd": 0.12240000085493241,
+  "mean_ite": -43.24589087355238,
+  "name": "More credit-hungry customers (util +0.10)"
+ },
+ {
+  "seed": 42,
+  "scenario": {
+   "util_shift": 0.1
+  },
+  "random": -8665407.66141326,
+  "lowest_risk": 1430569.5410886412,
+  "highest_usage": -19390274.311891448,
+  "expected_profit_observational": 3823227.82610168,
+  "expected_profit_generous": 3529940.019435268,
+  "incremental_value": 5046805.61897205,
+  "incremental_value_cycle1_capacity": 4753195.1710491665,
+  "ceiling": 10522758.012419706,
+  "pilot_cost": -1305995.763719384,
+  "pilot_treated": 30020,
+  "mean_pd": 0.12236780799787099,
+  "mean_ite": -43.37100334387534,
+  "name": "More credit-hungry customers (util +0.10)"
+ },
+ {
+  "seed": 7,
+  "scenario": {
+   "frag_pd": 0.225,
+   "frag_cli": 0.45
+  },
+  "random": -5161943.162508359,
+  "lowest_risk": 1170620.3210722082,
+  "highest_usage": -9890602.376135638,
+  "expected_profit_observational": 6096849.281434623,
+  "expected_profit_generous": 5932294.101087784,
+  "incremental_value": 6158384.45587055,
+  "incremental_value_cycle1_capacity": 5742314.660279121,
+  "ceiling": 7713625.897012715,
+  "pilot_cost": -780039.2212523976,
+  "pilot_treated": 29991,
+  "mean_pd": 0.1096754817855578,
+  "mean_ite": -25.85565926076611,
+  "name": "Weaker hidden fragility (half)"
+ },
+ {
+  "seed": 11,
+  "scenario": {
+   "frag_pd": 0.225,
+   "frag_cli": 0.45
+  },
+  "random": -5142905.018007586,
+  "lowest_risk": 931878.2294722563,
+  "highest_usage": -9863808.49167214,
+  "expected_profit_observational": 6017834.309398882,
+  "expected_profit_generous": 5704045.875355803,
+  "incremental_value": 6082384.842265935,
+  "incremental_value_cycle1_capacity": 5735920.077045282,
+  "ceiling": 7703817.017330638,
+  "pilot_cost": -771035.9448101717,
+  "pilot_treated": 29872,
+  "mean_pd": 0.10959635661381673,
+  "mean_ite": -25.881051074776437,
+  "name": "Weaker hidden fragility (half)"
+ },
+ {
+  "seed": 23,
+  "scenario": {
+   "frag_pd": 0.225,
+   "frag_cli": 0.45
+  },
+  "random": -5195086.5663043,
+  "lowest_risk": 1122207.214272156,
+  "highest_usage": -9907586.875252873,
+  "expected_profit_observational": 5928376.414735859,
+  "expected_profit_generous": 5866424.3763479255,
+  "incremental_value": 6105340.686022206,
+  "incremental_value_cycle1_capacity": 5708049.040931031,
+  "ceiling": 7697172.055192904,
+  "pilot_cost": -759338.9508894004,
+  "pilot_treated": 30150,
+  "mean_pd": 0.10979714923291502,
+  "mean_ite": -25.95694192938918,
+  "name": "Weaker hidden fragility (half)"
+ },
+ {
+  "seed": 42,
+  "scenario": {
+   "frag_pd": 0.225,
+   "frag_cli": 0.45
+  },
+  "random": -5192096.069812929,
+  "lowest_risk": 831727.3636021212,
+  "highest_usage": -9874012.038684227,
+  "expected_profit_observational": 6004042.259055411,
+  "expected_profit_generous": 5859813.340913357,
+  "incremental_value": 6113573.6458779555,
+  "incremental_value_cycle1_capacity": 5722319.085711661,
+  "ceiling": 7692376.322860196,
+  "pilot_cost": -780794.1064572278,
+  "pilot_treated": 30020,
+  "mean_pd": 0.10972840863833529,
+  "mean_ite": -25.979603965064896,
+  "name": "Weaker hidden fragility (half)"
+ },
+ {
+  "seed": 7,
+  "scenario": {
+   "frag_pd": 0.675,
+   "frag_cli": 1.35
+  },
+  "random": -10807122.631386314,
+  "lowest_risk": 210526.46670396335,
+  "highest_usage": -22258268.509162545,
+  "expected_profit_observational": -1244170.9899391904,
+  "expected_profit_generous": -1760883.5874494428,
+  "incremental_value": 1254272.9408635655,
+  "incremental_value_cycle1_capacity": 1316453.9188935386,
+  "ceiling": 8560561.55653964,
+  "pilot_cost": -1646643.796911023,
+  "pilot_treated": 29991,
+  "mean_pd": 0.11952961260160513,
+  "mean_ite": -54.0398802719573,
+  "name": "Stronger hidden fragility (1.5x)"
+ },
+ {
+  "seed": 11,
+  "scenario": {
+   "frag_pd": 0.675,
+   "frag_cli": 1.35
+  },
+  "random": -10751939.49986216,
+  "lowest_risk": 222105.4087768378,
+  "highest_usage": -22221531.583855443,
+  "expected_profit_observational": -1128047.4954710074,
+  "expected_profit_generous": -2107060.0244870423,
+  "incremental_value": 1239202.5646273391,
+  "incremental_value_cycle1_capacity": 1346082.0213321256,
+  "ceiling": 8562561.392804794,
+  "pilot_cost": -1600016.0370235825,
+  "pilot_treated": 29872,
+  "mean_pd": 0.1194267628574099,
+  "mean_ite": -54.12148057003442,
+  "name": "Stronger hidden fragility (1.5x)"
+ },
+ {
+  "seed": 23,
+  "scenario": {
+   "frag_pd": 0.675,
+   "frag_cli": 1.35
+  },
+  "random": -10870519.084140329,
+  "lowest_risk": 198943.5823922596,
+  "highest_usage": -22186047.24593667,
+  "expected_profit_observational": -1224297.0390486121,
+  "expected_profit_generous": -1624534.3472126897,
+  "incremental_value": 1278654.8192619605,
+  "incremental_value_cycle1_capacity": 1358770.6194402592,
+  "ceiling": 8543462.964540668,
+  "pilot_cost": -1593666.7510596754,
+  "pilot_treated": 30150,
+  "mean_pd": 0.11965891751621324,
+  "mean_ite": -54.104159027741176,
+  "name": "Stronger hidden fragility (1.5x)"
+ },
+ {
+  "seed": 42,
+  "scenario": {
+   "frag_pd": 0.675,
+   "frag_cli": 1.35
+  },
+  "random": -10837453.172752205,
+  "lowest_risk": 85835.39565220731,
+  "highest_usage": -22227711.416819066,
+  "expected_profit_observational": -958738.0263225575,
+  "expected_profit_generous": -1513189.3090730407,
+  "incremental_value": 1215903.94397658,
+  "incremental_value_cycle1_capacity": 1347454.2090160593,
+  "ceiling": 8540568.125221595,
+  "pilot_cost": -1630422.2568482459,
+  "pilot_treated": 30020,
+  "mean_pd": 0.11965286426413019,
+  "mean_ite": -54.23051062170963,
+  "name": "Stronger hidden fragility (1.5x)"
+ },
+ {
+  "seed": 7,
+  "scenario": {
+   "macro": 0.5
+  },
+  "random": -13840135.044201985,
+  "lowest_risk": 141325.54513066198,
+  "highest_usage": -30533108.430113517,
+  "expected_profit_observational": -2530664.977960925,
+  "expected_profit_generous": -2921981.8432000554,
+  "incremental_value": 1214069.952840584,
+  "incremental_value_cycle1_capacity": 1339078.030076031,
+  "ceiling": 6065089.016127125,
+  "pilot_cost": -2091876.8100484156,
+  "pilot_treated": 29991,
+  "mean_pd": 0.133803914141765,
+  "mean_ite": -69.27843830320737,
+  "name": "Downturn (stress +0.5)"
+ },
+ {
+  "seed": 11,
+  "scenario": {
+   "macro": 0.5
+  },
+  "random": -13775293.74788512,
+  "lowest_risk": 86393.13867332193,
+  "highest_usage": -30447275.630780097,
+  "expected_profit_observational": -2149711.33037084,
+  "expected_profit_generous": -3141163.2631144593,
+  "incremental_value": 1182008.6181480042,
+  "incremental_value_cycle1_capacity": 1304726.9560336375,
+  "ceiling": 6059937.440174389,
+  "pilot_cost": -2049611.0166869338,
+  "pilot_treated": 29872,
+  "mean_pd": 0.13370535925296223,
+  "mean_ite": -69.2753484602525,
+  "name": "Downturn (stress +0.5)"
+ },
+ {
+  "seed": 23,
+  "scenario": {
+   "macro": 0.5
+  },
+  "random": -13916631.605956044,
+  "lowest_risk": 106788.65494842234,
+  "highest_usage": -30507335.242956236,
+  "expected_profit_observational": -1979478.065239479,
+  "expected_profit_generous": -2528830.2873545634,
+  "incremental_value": 1076488.206995689,
+  "incremental_value_cycle1_capacity": 1183939.7960765064,
+  "ceiling": 6053823.589069536,
+  "pilot_cost": -2050955.6234877983,
+  "pilot_treated": 30150,
+  "mean_pd": 0.1339412661759221,
+  "mean_ite": -69.36352959404255,
+  "name": "Downturn (stress +0.5)"
+ },
+ {
+  "seed": 42,
+  "scenario": {
+   "macro": 0.5
+  },
+  "random": -13883789.378712857,
+  "lowest_risk": -6450.933825493295,
+  "highest_usage": -30505836.931278348,
+  "expected_profit_observational": -2004017.5078101747,
+  "expected_profit_generous": -2669659.38154966,
+  "incremental_value": 1097958.0336565205,
+  "incremental_value_cycle1_capacity": 1248493.6754753273,
+  "ceiling": 6050338.769142823,
+  "pilot_cost": -2086299.8457683185,
+  "pilot_treated": 30020,
+  "mean_pd": 0.13390193103280826,
+  "mean_ite": -69.45296372414585,
+  "name": "Downturn (stress +0.5)"
+ },
+ {
+  "seed": 7,
+  "scenario": {
+   "macro": 0.0,
+   "macro_deploy": 0.5
+  },
+  "random": -13840135.044201985,
+  "lowest_risk": 109291.2976028671,
+  "highest_usage": -30533108.430113517,
+  "expected_profit_observational": -3446979.4964090753,
+  "expected_profit_generous": -4185016.0258501945,
+  "incremental_value": 493967.24790858524,
+  "incremental_value_cycle1_capacity": 808141.4478666215,
+  "ceiling": 6065089.016127125,
+  "pilot_cost": -1203029.9370337855,
+  "pilot_treated": 29991,
+  "mean_pd": 0.133803914141765,
+  "mean_ite": -69.27843830320737,
+  "name": "Models built in good times, deployed in downturn"
+ },
+ {
+  "seed": 11,
+  "scenario": {
+   "macro": 0.0,
+   "macro_deploy": 0.5
+  },
+  "random": -13775293.74788512,
+  "lowest_risk": -11559.154490330053,
+  "highest_usage": -30447275.630780097,
+  "expected_profit_observational": -4201850.450505768,
+  "expected_profit_generous": -5010937.5869317,
+  "incremental_value": -116057.92096441926,
+  "incremental_value_cycle1_capacity": 171317.15685922944,
+  "ceiling": 6059937.440174389,
+  "pilot_cost": -1170477.1701879892,
+  "pilot_treated": 29872,
+  "mean_pd": 0.13370535925296223,
+  "mean_ite": -69.2753484602525,
+  "name": "Models built in good times, deployed in downturn"
+ },
+ {
+  "seed": 23,
+  "scenario": {
+   "macro": 0.0,
+   "macro_deploy": 0.5
+  },
+  "random": -13916631.605956044,
+  "lowest_risk": 107414.96960910152,
+  "highest_usage": -30507335.242956236,
+  "expected_profit_observational": -3459999.559494242,
+  "expected_profit_generous": -4004262.124015576,
+  "incremental_value": 187165.5839629043,
+  "incremental_value_cycle1_capacity": 472826.17211813794,
+  "ceiling": 6053823.589069536,
+  "pilot_cost": -1163879.9244046852,
+  "pilot_treated": 30150,
+  "mean_pd": 0.1339412661759221,
+  "mean_ite": -69.36352959404255,
+  "name": "Models built in good times, deployed in downturn"
+ },
+ {
+  "seed": 42,
+  "scenario": {
+   "macro": 0.0,
+   "macro_deploy": 0.5
+  },
+  "random": -13883789.378712857,
+  "lowest_risk": -65941.32571209743,
+  "highest_usage": -30505836.931278348,
+  "expected_profit_observational": -3312821.724980301,
+  "expected_profit_generous": -3914935.7133430406,
+  "incremental_value": 110446.87206313584,
+  "incremental_value_cycle1_capacity": 436770.6650135574,
+  "ceiling": 6050338.769142823,
+  "pilot_cost": -1190531.879505996,
+  "pilot_treated": 30020,
+  "mean_pd": 0.13390193103280826,
+  "mean_ite": -69.45296372414585,
+  "name": "Models built in good times, deployed in downturn"
+ }
+]

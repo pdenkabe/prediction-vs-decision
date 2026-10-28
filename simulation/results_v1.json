@@ -1,0 +1,155 @@
+{
+ "auc": 0.7820289304586701,
+ "rho_risk_value": -0.5396759218826382,
+ "rho_use_value": 0.20461970120662834,
+ "rho_hat_value": 0.6907212592263731,
+ "overlap": 0.207835,
+ "results": [
+  {
+   "policy": "Random 200,000",
+   "treated": 200000,
+   "incr_value": -7987539.270750646,
+   "per_acct": -39.937696353753225,
+   "share_negative": 0.69352,
+   "avg_pd": 0.11392646187164707
+  },
+  {
+   "policy": "Lowest predicted risk",
+   "treated": 200000,
+   "incr_value": 986230.3750152213,
+   "per_acct": 4.9311518750761065,
+   "share_negative": 0.579385,
+   "avg_pd": 0.01655360464753191
+  },
+  {
+   "policy": "Highest predicted usage",
+   "treated": 200000,
+   "incr_value": -16344567.328726131,
+   "per_acct": -81.72283664363066,
+   "share_negative": 0.56946,
+   "avg_pd": 0.2176454922973061
+  },
+  {
+   "policy": "Highest predicted incremental value",
+   "treated": 200000,
+   "incr_value": 3546762.1258321763,
+   "per_acct": 17.73381062916088,
+   "share_negative": 0.19833,
+   "avg_pd": 0.04765320613490425
+  },
+  {
+   "policy": "Perfect hindsight (ceiling)",
+   "treated": 200000,
+   "incr_value": 8019875.545988491,
+   "per_acct": 40.099377729942454,
+   "share_negative": 0.0,
+   "avg_pd": 0.05390069694318335
+  },
+  {
+   "policy": "Value policy, no quota (all with predicted gain > 0)",
+   "treated": 263059,
+   "incr_value": 3462441.4723761436,
+   "per_acct": 13.16222395879306,
+   "share_negative": 0.28119927468742756,
+   "avg_pd": 0.044542781980862915
+  },
+  {
+   "policy": "Everyone",
+   "treated": 1000000,
+   "incr_value": -39462738.09697437,
+   "per_acct": -39.46273809697437,
+   "share_negative": 0.692382,
+   "avg_pd": 0.11343437248702669
+  }
+ ],
+ "deciles": [
+  {
+   "risk_decile": 1,
+   "avg_ite": 6.655293504124306,
+   "share_pos": 0.49006,
+   "pd": 0.011267761961548479
+  },
+  {
+   "risk_decile": 2,
+   "avg_ite": 3.2050249404857114,
+   "share_pos": 0.35116,
+   "pd": 0.02183983605227246
+  },
+  {
+   "risk_decile": 3,
+   "avg_ite": 1.5227728361938428,
+   "share_pos": 0.38939,
+   "pd": 0.03362395171494933
+  },
+  {
+   "risk_decile": 4,
+   "avg_ite": -4.241744551080197,
+   "share_pos": 0.36236,
+   "pd": 0.047465936078244814
+  },
+  {
+   "risk_decile": 5,
+   "avg_ite": -10.016974224248102,
+   "share_pos": 0.35644,
+   "pd": 0.06322246037456512
+  },
+  {
+   "risk_decile": 6,
+   "avg_ite": -20.082798160794034,
+   "share_pos": 0.3405,
+   "pd": 0.08448379939796014
+  },
+  {
+   "risk_decile": 7,
+   "avg_ite": -34.2427144835801,
+   "share_pos": 0.32188,
+   "pd": 0.11214888799538453
+  },
+  {
+   "risk_decile": 8,
+   "avg_ite": -57.909861589479895,
+   "share_pos": 0.27089,
+   "pd": 0.15350954909291362
+  },
+  {
+   "risk_decile": 9,
+   "avg_ite": -95.23543158776475,
+   "share_pos": 0.16575,
+   "pd": 0.21869381107225233
+  },
+  {
+   "risk_decile": 10,
+   "avg_ite": -184.28094765360044,
+   "share_pos": 0.02775,
+   "pd": 0.3880877311301761
+  }
+ ],
+ "segments": [
+  {
+   "type": "Riskier and harmed",
+   "n": 387323,
+   "avg": -110.18133008935814,
+   "total": -42675763.31420046
+  },
+  {
+   "type": "Riskier but responsive",
+   "n": 112678,
+   "avg": 31.06723710954639,
+   "total": 3500594.143029468
+  },
+  {
+   "type": "Safe and responsive",
+   "n": 194940,
+   "avg": 26.393134111586008,
+   "total": 5145077.563712576
+  },
+  {
+   "type": "Safe but indifferent",
+   "n": 305059,
+   "avg": -17.808510778295165,
+   "total": -5432646.489515945
+  }
+ ],
+ "pop_mean_pd": 0.11343437248702669,
+ "pilot_n": 60000
+}

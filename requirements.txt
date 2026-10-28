@@ -1,0 +1,6 @@
+numpy>=2.0
+pandas>=2.2
+scikit-learn>=1.5
+matplotlib>=3.8  # only for redrawing exhibits
+
+# Results in this repo were produced with Python 3.13, numpy 2.5.3, pandas 3.0.5, scikit-learn 1.9.1
