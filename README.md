@@ -1,6 +1,6 @@
 # Prediction vs. decision: code and sources
 
-Code, results and sources behind the article **"Your AI May Be Accurate—and Still Make Bad Decisions"** by Philip Denkabe.
+Code, results and sources behind the article **"Your AI May Be Accurate and Still Make Bad Decisions"** by Philip Denkabe.
 
 The article argues that companies point machine learning at the wrong question. They predict who will default, churn or respond, but a decision depends on what an action will *change*. This repository has everything needed to reproduce the article's numbers.
 
