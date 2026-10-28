@@ -47,7 +47,21 @@ These are retrospective reanalyses of real randomized tests. Neither company dep
 | Highest predicted incremental value | Yes (60,000-account pilot, one-time cost $1.2M) | $3.6M |
 | Perfect hindsight (ceiling) | — | $8.0M |
 
-The incremental-value policy beat the expected-profit rule in all 44 runs. Capping each customer's predicted increase in default probability at 3 percentage points still created $3.0M with about 1,800 additional defaults, against $2.8M and about 3,900 for the expected-profit rule (`constrained_results.json`). The gap is modest in normal conditions (+$0.9M) and large when the increase itself makes customers riskier or the economy weakens (+$2.4M to +$3.8M), because the expected-profit rule assumes an increase does not change default risk. Full results by scenario are in `results_v2.json`.
+The incremental-value policy beat the expected-profit rule in all 44 runs. The gap is modest in normal conditions (+$0.9M) and large when the increase itself makes customers riskier or the economy weakens (+$2.4M to +$3.8M), because the expected-profit rule assumes an increase does not change default risk. Full results by scenario are in `results_v2.json`. In the scenario where models built in good times are used in a downturn, the incremental-value policy averaged +$0.2M and lost money in one of four runs.
+
+**Borrower-protection caps (`constrained.py`, base case, mean of four runs).** The incremental-value policy is rerun with a cap on each customer's *predicted* increase in default probability, learned from the same pilot. The cap applies to predictions, so it does not guarantee that every selected borrower's true risk increase stays below it.
+
+| Policy | Accounts treated | Value | Additional defaults (expected) |
+|---|---|---|---|
+| Expected-profit rule | 200,000 | $2.8M | ~3,900 |
+| Incremental value, no cap | 200,000 | $3.6M | ~2,300 |
+| Incremental value, 3-point cap | ~198,000 | $3.0M | ~1,800 |
+| Incremental value, 1-point cap | ~133,000 | $1.7M | ~1,100 |
+| Lowest predicted risk | 200,000 | $0.7M | ~530 |
+
+The 3-point cap beats the expected-profit rule on average and in three of four runs. Stricter caps also reduce the number of eligible accounts, so part of the lower total value reflects fewer line increases, not only a different mix of customers.
+
+
 
 **Limits.** The simulation tests one decision, not a customer lifecycle. Its parameters are typical of a U.S. near-prime card portfolio and are not drawn from any company's data. It shows a mechanism, not the size of the gain in any real portfolio.
 
